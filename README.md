@@ -6,6 +6,7 @@ ERROR in [eslint] Plugin "react" was conflicted between "package.json » eslint-
 ```
 
 **Source of problem**: You might be running npm start inside Powershell in Windows
+
 **Solution**: Use the good old Command prompt instead
 
 # Getting Started with Create React App
