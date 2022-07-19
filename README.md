@@ -1,3 +1,13 @@
+# If you get this ERROR
+
+```powershell
+[eslint] Plugin "react" was conflicted between "package.json » eslint-config-react-app » Drive:\todolist1\node_modules\eslint-config-react-app\base.js" and "BaseConfig » Drive:\todolist1\node_modules\eslint-config-react-app\base.js".
+ERROR in [eslint] Plugin "react" was conflicted between "package.json » eslint-config-react-app » Drive:\todolist1\node_modules\eslint-config-react-app\base.js" and "BaseConfig » Drive:\todolist1\node_modules\eslint-config-react-app\base.js".
+```
+
+**Source of problem**: You might be running npm start inside Powershell in Windows
+**Solution**: Use the good old Command prompt instead
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
