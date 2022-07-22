@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const AddTask = () => {
+  const [input, setInput ] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+  }
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div>
         <label>TASK: </label>
         <input type="text" placeholder='Add Task' />
